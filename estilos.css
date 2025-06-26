@@ -1,0 +1,127 @@
+*/* Fuente moderna */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fffdf8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navegación */
+header {
+  background-color: #222;
+  padding: 20px 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8em;
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* Portada */
+.portada {
+  background: url('https://images.unsplash.com/photo-1604909053729-59301c0f446d') no-repeat center center;
+  background-size: cover;
+  padding: 140px 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.portada::after {
+  content: '';
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  inset: 0;
+}
+
+.portada-contenido {
+  position: relative;
+  z-index: 1;
+}
+
+.portada h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.portada p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #ffcc00;
+  color: #222;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e6b800;
+}
+
+/* Secciones */
+.seccion {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.seccion h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.seccion img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.seccion ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.gris {
+  background-color: #f4f4f4;
+}
+
+/* Pie de página */
+footer {
+  background-color: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+
